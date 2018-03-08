@@ -2,7 +2,7 @@
 
 This setup works on all operating systems and will automatically delete old movies. Additionally you can set a whitelist file or generate this whitelist file from plex playlists.
 
-Run the scripts every day automatically with the system of your choosing. eg.: cron (linux) or task sceduller (windows).
+Run the scripts every day automatically with the system of your choosing. eg.: cron (linux) or task scheduler (windows).
 
 ## Automatically delete old movies
 
