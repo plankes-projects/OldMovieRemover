@@ -7,7 +7,7 @@ Run the scripts every day automatically with the system of your choosing. eg.: c
 ## Automatically delete old movies
 
 * Install java
-* Download MovieCleanup.java from https://github.com/plankes-projects/OldMovieRemover/releases
+* Download MovieCleanup.jar from https://github.com/plankes-projects/OldMovieRemover/releases
 * Create an empty file as your whitelist file.
 * Run with
 > java -jar MovieCleanup.jar <whitelist_file> <clean_directory> <max_dirs> <del|safe>
