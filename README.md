@@ -21,6 +21,12 @@ Use the del flag for deletion.
 eg.: 
 > java -jar MovieCleanup.java /volume/whitelistfile /volume/movies/ 100 del
 
+## Create whitelist file manually
+One movie per line.
+One line should look like this:
+/volume/movies/My Movie (2018)/my.movie.mkv
+
+The 'My Movie (2018)' part will be compared.
 
 ## Generate whitelist file from plex playlists
 
