@@ -26,7 +26,7 @@ One movie per line.
 One line should look like this:
 /volume/movies/My Movie (2018)/my.movie.mkv
 
-The 'My Movie (2018)' part will be compared.
+The parent directory, in this case 'My Movie (2018)', will be compared.
 
 ## Generate whitelist file from plex playlists
 
