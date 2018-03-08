@@ -10,10 +10,10 @@ Run the scripts every day automatically with the system of your choosing. eg.: c
 * Download MovieCleanup.java from https://github.com/plankes-projects/OldMovieRemover/releases
 * Create an empty file as your whitelist file.
 * Run with
-> java -jar MovieCleanup.java <whitelist_file> <clean_directory> <max_dirs> <del|safe>
+> java -jar MovieCleanup.jar <whitelist_file> <clean_directory> <max_dirs> <del|safe>
 
 eg.: 
-> java -jar MovieCleanup.java /volume/whitelistfile /volume/movies/ 100 safe
+> java -jar MovieCleanup.jar /volume/whitelistfile /volume/movies/ 100 safe
 
 This script will automatically delete files/directories if you have more than the defined number in your clean_directory path. It preferes files/directories which has the oldest 'created date'. 'Modified date' will be taken if your file system does not support 'created date'.
 
@@ -21,7 +21,7 @@ The safe flag in the end performs a safe run. This means it will not delete any 
 Use the del flag for deletion.
 
 eg.: 
-> java -jar MovieCleanup.java /volume/whitelistfile /volume/movies/ 100 del
+> java -jar MovieCleanup.jar /volume/whitelistfile /volume/movies/ 100 del
 
 ## Create whitelist file manually
 One movie per line.
