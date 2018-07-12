@@ -15,10 +15,10 @@ plex = PlexServer(server, plex_token)
 
 movies = []
 for playlist in plex.playlists():
-    if playlist.playlistType != "audio":
-        for item in playlist.items():
-            for loc in item.locations:
-                movies.append(loc)
+  if playlist.playlistType != "audio":
+    for item in playlist.items():
+      for loc in item.locations:
+        movies.append(loc)
 
 with codecs.open(file_path, "w", "utf-8") as text_file:
   for movie in movies:
