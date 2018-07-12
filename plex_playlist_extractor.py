@@ -5,7 +5,7 @@ import os
 import codecs
 
 if len(sys.argv) != 4:
-    sys.exit('Usage: ' + os.path.basename(__file__) + ' <plex_token> <target_file>')
+    sys.exit('Usage: ' + os.path.basename(__file__) + ' <plex_token> <server> <target_file>')
 
 plex_token = sys.argv[1]
 server = sys.argv[2]
